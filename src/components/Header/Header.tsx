@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import "../../app/Styles/text.styles.scss";
+import "../../Styles/text.styles.scss";
 import "./styles.scss";
 import ME from "../../assets/me.svg";
 import Menu from "../../assets/menu.svg";

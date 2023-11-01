@@ -1,0 +1,50 @@
+section {
+  padding: 16px;
+
+  background-color: var(--color-pink);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 100%;
+
+    margin: 16px 0;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  p,
+  h3 {
+    text-align: center;
+  }
+
+  @media (min-width: 769px) {
+    .boxText {
+      margin: 0 100px;
+    }
+
+    .boxImage {
+      margin: 0 100px 0 50px;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    padding-top: 80px;
+
+    flex-direction: row-reverse;
+
+    img {
+      width: 300px;
+
+      margin: 0;
+    }
+
+    p,
+    h3 {
+      text-align: start;
+    }
+  }
+}

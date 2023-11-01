@@ -7,8 +7,8 @@
 }
 
 .textBodyLigth {
-    @extend .textBodyDark;
-    color: var(--color-white)
+  @extend .textBodyDark;
+  color: var(--color-white);
 }
 
 .textBodySemiBold {
@@ -16,3 +16,13 @@
   font-weight: 600;
 }
 
+.titleDark {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-grey);
+}
+
+.titleLigth {
+  @extend .titleDark;
+  color: var(--color-white);
+}
