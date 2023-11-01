@@ -1,4 +1,4 @@
-import "./globals.scss";
+import "./Styles/globals.scss";
 import Header from "@/components/Header/Header";
 import type { Metadata } from "next";
 import { Jost } from "next/font/google";

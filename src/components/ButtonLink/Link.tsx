@@ -1,21 +1,23 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import "./styles.scss";
 
 interface ILinkProps {
-  content: string;
+  children: ReactNode;
   variant: string;
   to: string;
+  margin?: string;
   width?: string;
 }
 
-const Link = ({ content, variant, to, width }: ILinkProps) => {
+const Link = ({ children, variant, to, width, margin }: ILinkProps) => {
   const linkStyle = {
     width: width ? width : "auto",
+    margin: margin ? margin : "0px",
   };
 
   return (
     <a href={to} className={`custom-link ${variant}`} style={linkStyle}>
-      <p className={`custom-link ${variant}`}>{content}</p>
+      <p className={`custom-link ${variant}`}>{children}</p>
     </a>
   );
 };

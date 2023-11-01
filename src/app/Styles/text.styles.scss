@@ -1,0 +1,18 @@
+@import "./globals.scss";
+
+.textBodyDark {
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--color-grey);
+}
+
+.textBodyLigth {
+    @extend .textBodyDark;
+    color: var(--color-white)
+}
+
+.textBodySemiBold {
+  @extend .textBodyDark;
+  font-weight: 600;
+}
+
