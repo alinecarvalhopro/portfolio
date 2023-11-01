@@ -1,0 +1,76 @@
+@import "../../app/globals.scss";
+
+.custom-button {
+  border: none;
+  border-radius: var(--borderRadius-default);
+
+  padding: 10px 20px;
+
+  font-size: 16px;
+
+  &.primary {
+    background-color: transparent;
+
+    border: 1px solid var(--color-white);
+
+    color: var(--color-white);
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  &.secondary {
+    background-color: var(--color-pink);
+
+    color: var(--color-black);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  @media (min-width: 796px) {
+    &.secondary {
+      height: 94px;
+    }
+  }
+}
+
+.custom-link {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: var(--borderRadius-default);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.primary {
+    background-color: transparent;
+
+    border: 1px solid var(--color-white);
+    p {
+      padding: 8.5px 0;
+
+      border: none;
+
+      color: var(--color-white);
+      font-size: 12px;
+      font-weight: normal;
+      text-align: center;
+    }
+  }
+
+  &.secondary {
+    background-color: var(--color-pink);
+    p {
+      color: var(--color-black);
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 796px) {
+    &.secondary {
+      height: 94px;
+    }
+  }
+}
