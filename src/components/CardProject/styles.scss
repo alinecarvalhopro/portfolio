@@ -1,0 +1,40 @@
+li {
+  min-width: 250px;
+  min-height: 250px;
+
+  margin-left: 20px;
+
+  border: 1px solid var(--color-white);
+  border-radius: var(--borderRadius-default);
+
+  padding: 16px 22px;
+
+  text-decoration: none;
+
+  .tecnologies {
+    display: flex;
+    align-items: flex-end;
+
+    .icons {
+      margin-left: 8px;
+
+      .iconProject {
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .imageProject {
+    margin-top: 10px;
+
+    border-radius: var(--borderRadius-default);
+  }
+
+  .boxButtons {
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+  }
+
+}

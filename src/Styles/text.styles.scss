@@ -16,6 +16,11 @@
   font-weight: 600;
 }
 
+.textSmall {
+  @extend .textBodyDark;
+  font-size: 12px;
+}
+
 .titleDark {
   font-size: 30px;
   font-weight: 600;

@@ -1,4 +1,4 @@
-section {
+.containerSkills {
   padding: 16px;
 
   background-color: var(--color-pink);
@@ -23,6 +23,7 @@ section {
 
   @media (min-width: 769px) {
     .boxText {
+      max-width: 1000px;
       margin: 0 100px;
     }
 

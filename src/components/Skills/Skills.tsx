@@ -4,7 +4,7 @@ import Web from "../../assets/devWebMobileToWeb.svg";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-const Skills = () => {
+export const Skills = () => {
   const [isBigSize, setIsBigSize] = useState(false);
 
   const handleResize = () => {
@@ -25,7 +25,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section>
+    <section className="containerSkills">
       <div className="boxImage">
         <Image
           src={isBigSize ? Web : Mobile}
@@ -73,5 +73,3 @@ const Skills = () => {
     </section>
   );
 };
-
-export default Skills;

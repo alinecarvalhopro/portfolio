@@ -1,25 +1,32 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import "./styles.scss";
 
 interface IButtonProps {
-  content: string;
+  children: ReactNode;
   variant: string;
   width?: string;
-  onClick: () => void;
+  margin?: string;
+  link: string;
+  className?: string;
 }
 
-const Button = ({ content, variant, width, onClick }: IButtonProps) => {
+const Button = ({ children, variant, width, margin, link }: IButtonProps) => {
   const buttonStyle = {
     width: width ? width : "auto",
+    margin: margin ? margin : "0px",
+  };
+
+  const handleButtonClick = () => {
+    window.open(link, "_blank");
   };
 
   return (
     <button
       className={`custom-button ${variant}`}
       style={buttonStyle}
-      onClick={onClick}
+      onClick={handleButtonClick}
     >
-      {content}
+      {children}
     </button>
   );
 };
