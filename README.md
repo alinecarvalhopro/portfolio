@@ -1,6 +1,4 @@
-# Novo Portfólio
-
-Este projeto que estou trabalhando atualmente é o meu novo portfólio. Ele está em desenvolvimento, mas deixarei o repositório público e o link do Figma para quem quiser ir acompanhando o desenvolvimento.
+# meu Portfólio
 
 As tecnologias que escolhi para o desenvolvimento foram:
 - React.js
@@ -8,13 +6,9 @@ As tecnologias que escolhi para o desenvolvimento foram:
 - TypeScript
 - Sass
 
-Espero em breve compartilhar ele pronto com vocês aqui :)
-
 Link do Figma: 
 - https://www.figma.com/file/HRoqa0nOUzgHUyTbvL3Kpr/Porf%C3%B3lio-Aline-Carvalho?type=design&node-id=9-80&mode=design&t=axpMYVPfsXU2ZWp5-0
 
-Antigo Portfólio:
-- https://portfolio-alinecarvalhopro.vercel.app/
 
 <br />
 
