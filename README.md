@@ -1,4 +1,4 @@
-# meu Portfólio
+# Portfólio pessoal
 
 As tecnologias que escolhi para o desenvolvimento foram:
 - React.js
