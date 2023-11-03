@@ -6,6 +6,9 @@ As tecnologias que escolhi para o desenvolvimento foram:
 - TypeScript
 - Sass
 
+Link de acesso:
+- https://portfolio-alinecarvalhopro.vercel.app
+
 Link do Figma: 
 - https://www.figma.com/file/HRoqa0nOUzgHUyTbvL3Kpr/Porf%C3%B3lio-Aline-Carvalho?type=design&node-id=9-80&mode=design&t=axpMYVPfsXU2ZWp5-0
 
