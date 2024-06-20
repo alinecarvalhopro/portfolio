@@ -1,0 +1,25 @@
+footer {
+  width: 100%;
+  min-height: 70px;
+
+  background-color: var(--color-pink);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .toTopButton {
+    width: 40px;
+
+    padding: 0;
+
+    border: none;
+    border-radius: var(--borderRadius-default);
+
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -8,18 +8,21 @@ export const EducationProjects = () => {
       <div className="boxEducation">
         <div className="graduation">
           <h3 className="titleDark">Formação</h3>
-          <p>Graduação em Desenvolvimento Mobile</p>
-          <p>Anhanguera Educacional (Ampli)</p>
-          <p className="textSmall">out/23 a mai/25 "previsto"</p> <br />
+          <p>Graduação em Design Gráfico</p>
+          <p>Anhembi Morumbi</p>
+          <p className="textSmall">fev/24 a dez/25 "previsto"</p> <br />
+          <p>Desenvolvimento Full Stack</p>
+          <p>Kenzie Academy Brasil</p>
+          <p className="textSmall">nov/22 a nov/23</p> <br />
           <p>Técnico em Publicidade</p>
           <p>Liceu Camilo Castelo Branco</p>
           <p className="textSmall">jan/05 a dez/07</p> <br />
         </div>
         <div className="courses">
           <h3 className="titleDark">Cursos</h3>
-          <p>Desenvolvimento Full Stack</p>
-          <p>Kenzie Academy Brasil</p>
-          <p className="textSmall">nov/22 a nov/23</p> <br />
+          <p>React Native | Criando Aplicativos</p>
+          <p>Udemy</p>
+          <p className="textSmall">set/23 a nov/23</p> <br />
           <p>React Native na Prática</p>
           <p>Udemy</p>
           <p className="textSmall">jun/23 a ago/23</p> <br />

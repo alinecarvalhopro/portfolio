@@ -31,13 +31,13 @@ export const ListProjects = () => {
 
   const scrollLeft = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollLeft -= 100;
+      scrollRef.current.scrollLeft -= 270;
     }
   };
 
   const scrollRight = () => {
     if (scrollRef.current) {
-      scrollRef.current.scrollLeft += 100;
+      scrollRef.current.scrollLeft += 270;
     }
   };
 

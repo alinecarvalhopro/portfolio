@@ -75,9 +75,6 @@
 
         justify-content: flex-start;
 
-        .custom-button.secondary {
-          min-width: 250px;
-        }
       }
     }
   }
@@ -132,6 +129,10 @@
       }
       .boxButtonsTo {
         margin-left: 0;
+
+        .custom-button.secondary {
+          min-width: 250px;
+        }
       }
     }
   }

@@ -1,7 +1,7 @@
 :root {
   --color-black: #000000;
   --color-grey: #1e1e1e;
-  --color-pink: #d8a3d5;
+  --color-pink: #FFB3B3;
   --color-white: #ffffff;
 
   --borderRadius-default: 4px;
@@ -17,6 +17,10 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+}
+
+body {
+  background-color: #ffffff;
 }
 
 a {

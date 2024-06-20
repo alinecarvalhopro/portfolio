@@ -24,9 +24,6 @@
     background: linear-gradient(to left, var(--color-grey), rgba(0, 0, 0, 0));
   }
 
-  .scrollLeftButton:hover {
-    background: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  }
   .scrollRightButton {
     min-width: 50px;
     height: 252px;
@@ -34,10 +31,6 @@
     border: none;
 
     background: linear-gradient(to right, var(--color-grey), rgba(0, 0, 0, 0));
-  }
-
-  .scrollRightButton:hover {
-    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   }
 
   @media (min-width: 1025px) {

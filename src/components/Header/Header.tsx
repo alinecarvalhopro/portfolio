@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import "../../Styles/text.styles.scss";
 import "./styles.scss";
 import ME from "../../assets/me.svg";
-import Menu from "../../assets/menu.svg";
+import Menu from "../../assets/Menu.svg";
 import CloseMenu from "../../assets/close.svg";
 import LinkedIn from "../../assets/in.svg";
 import GitHub from "../../assets/github.svg";
@@ -22,7 +22,7 @@ const Header = () => {
     <header>
       <nav>
         <div className="boxPersonalPresentation">
-          <Image src={ME} alt="Foto Aline" className="me" />
+          {/* <Image src={ME} alt="Foto Aline" className="me" /> */}
           <p className="textBodyLigth">Olá, eu sou a Aline!</p>
         </div>
         <Image

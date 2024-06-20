@@ -19,6 +19,29 @@ interface IProject {
 const database: IProject[] = [
   {
     id: uuidv4(),
+    name: "Busca por CEP",
+    img: "/projects-images/busca-por-cep.png",
+    gitHub: "https://github.com/alinecarvalhopro/BuscaPorCepAmieApps",
+    figma:
+    "https://www.figma.com/file/UQZA0gMs6VHsHMOMWHf93x/Busca-por-cep?type=design&mode=design&t=0u7pXW0CbQmH3zZC-0",
+    googlePlay: "https://play.google.com/store/apps/details?id=com.buscaporcepamieapps",
+    tecnologies: "React Native",
+    icons: [TS, GooglePlay, Figma],
+    more: "mobile",
+  },
+  {
+    id: uuidv4(),
+    name: "Clínica Spa Beleza Zen",
+    img: "/projects-images/beleza-zen.png",
+    gitHub: "https://github.com/alinecarvalhopro/ClinicaSpaBelezaZen",
+    figma:
+    "https://www.figma.com/file/CWDBAycE5EgUPCiMGRoG8c/Untitled?type=design&node-id=0-1&mode=design&t=yTntb3SYRQnvZPd8-0",
+    tecnologies: "React Native",
+    icons: [TS, Figma],
+    more: "mobile",
+  },
+  {
+    id: uuidv4(),
     name: "Git Search",
     img: "/projects-images/git-search.png",
     gitHub: "https://github.com/alinecarvalhopro/GitSearchAmieApps",

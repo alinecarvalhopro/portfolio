@@ -21,6 +21,11 @@
   font-size: 12px;
 }
 
+.textSmallFooter {
+  @extend .textBodyDark;
+  font-size: 10px;
+}
+
 .titleDark {
   font-size: 30px;
   font-weight: 600;
