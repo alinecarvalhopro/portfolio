@@ -7,7 +7,7 @@ As tecnologias que escolhi para o desenvolvimento foram:
 - Sass
 
 Link de acesso:
-- https://portfolio-alinecarvalhopro.vercel.app
+- [https://portfolio-alinecarvalhopro.vercel.app](https://portfolio-alinecarvalhopros-projects.vercel.app/)
 
 <br />
 
