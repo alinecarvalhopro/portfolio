@@ -1,9 +1,11 @@
-import { Footer } from '@/components/Footer/Footer';
 import '../Styles/globals.scss';
+
+import { Footer } from '@/components/Footer/Footer';
 import Header from '@/components/Header/Header';
+
 import type { Metadata } from 'next';
-import { Jost } from 'next/font/google';
 import Head from 'next/head';
+import { Jost } from 'next/font/google';
 
 const jost = Jost({ subsets: ['latin'] });
 
